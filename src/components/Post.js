@@ -43,7 +43,7 @@ export default function Post(props) {
         <div data-test="post" class="post">
             <div class="topo">
               <div class="usuario">
-                <img data-test="post-image" src={props.imagemUsuario} alt={props.nomeUsuario}/>
+                <img src={props.imagemUsuario} alt={props.nomeUsuario}/>
                 meowed
               </div>
               <div class="acoes">
@@ -52,7 +52,7 @@ export default function Post(props) {
             </div>
 
             <div class="conteudo">
-              <img onDoubleClick={curtirPelaFoto} src={props.imagemConteudo} alt={props.textoConteudo}/>
+              <img data-test="post-image" onDoubleClick={curtirPelaFoto} src={props.imagemConteudo} alt={props.textoConteudo}/>
             </div>
 
             <div class="fundo">
