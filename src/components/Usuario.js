@@ -30,11 +30,11 @@ function PersonalizarUsuario(props) {
   }
   return (
     <div class="usuario">
-      <img onClick={mudarFoto} src={foto} alt="imagem de perfil"/>
+    <img data-test="profile-image" onClick={mudarFoto} src={foto} alt="imagem de perfil"/>
       <div class="texto">
         <span>
-          <strong>{nomeDoUsuario}</strong>
-          <ion-icon onClick={mudarNome} name="pencil"></ion-icon>
+          <strong data-test="name">{nomeDoUsuario}</strong>
+          <ion-icon data-test="edit-name"onClick={mudarNome} name="pencil"></ion-icon>
         </span>
       </div>
     </div>
