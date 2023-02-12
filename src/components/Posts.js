@@ -3,15 +3,15 @@ export default function Posts() {
 
 let listaPosts = [{imagemUsuario:"assets/img/meowed.svg", nomeUsuario:"meowed", 
 imagemConteudo:"assets/img/gato-telefone.svg", textoConteudo:"gato-telefone",
-imagemCurtidas:"assets/img/respondeai.svg", textoCurtidas:"respondeai", numeroCurtidas:101.523 },
+imagemCurtidas:"assets/img/respondeai.svg", textoCurtidas:"respondeai", numeroCurtidas:101523 },
 
 {imagemUsuario:"assets/img/barked.svg", nomeUsuario:"barked", 
 imagemConteudo:"assets/img/dog.svg", textoConteudo:"dog",
-imagemCurtidas:"assets/img/adorable_animals.svg", textoCurtidas:"adorable_animals", numeroCurtidas:99.159 },
+imagemCurtidas:"assets/img/adorable_animals.svg", textoCurtidas:"adorable_animals", numeroCurtidas:99159 },
 
 {imagemUsuario:"assets/img/meowed.svg", nomeUsuario:"meowed", 
 imagemConteudo:"assets/img/gato.jpg", textoConteudo:"gato-cobertor",
-imagemCurtidas:"assets/img/9gag.svg", textoCurtidas:"9gag", numeroCurtidas:75.359 }
+imagemCurtidas:"assets/img/9gag.svg", textoCurtidas:"9gag", numeroCurtidas:75359 }
 
 ]
 
